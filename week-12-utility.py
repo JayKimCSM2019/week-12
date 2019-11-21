@@ -9,3 +9,6 @@ def Loadfile(file_name):
     file=open(file_name)
     lines=file.readlines()
     file.close()
+    for line in lines:
+        words=lines.split
+    print(words)
