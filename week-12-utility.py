@@ -5,4 +5,7 @@
 def PrintOutput(string):
     print(string)
 
-def  
+def Loadfile(file_name):
+    file=open(file_name)
+    lines=file.readlines()
+    file.close()
