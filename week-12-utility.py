@@ -25,3 +25,9 @@ def FindWordCount(entered_list,entered_string):
         if i==entered_string:
             counter+=1
     print(counter)
+
+def ScoreBoard(players,scores,name):
+    for i in players:
+        if i.lower()==name.lower():
+            index=i.find(players)
+    print(name, "got a score of", scores[index])
